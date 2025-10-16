@@ -1,0 +1,593 @@
+{
+  "version": "45.0.0",
+  "artifacts": {
+    "amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/16f915f05617ab5acaff2e966b14048adad140fcf0b1f0e8445ac69beda8aa6c.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209.assets"
+      ],
+      "metadata": {
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthUserPoolA8745017Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthUserPoolA8745017Ref"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthUserPoolAppClientA4008197Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthUserPoolAppClientA4008197Ref"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth/amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthIdentityPoolCC5E99F1Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthIdentityPoolCC5E99F1Ref"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/GraphQLAPI/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPIDefaultApiKey1C8ED374"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/L2GraphqlApi/bedrockDS/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataL2GraphqlApibedrockDSServiceRoleD5BC3C5F"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/L2GraphqlApi/bedrockDS/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataL2GraphqlApibedrockDSServiceRoleDefaultPolicyC14DA5BE"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyData/L2GraphqlApi/bedrockDS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataL2GraphqlApibedrockDSD04543E4"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/modelIntrospectionSchemaBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketF566B665"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Fn_Query_askBedrock_1": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FnQueryaskBedrock1"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/Resolver_Query_askBedrock": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ResolverQueryaskBedrock"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/reference-to-amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authNestedStackauthNestedStackResource844A4080Outputs.amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthUserPoolA8745017Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authNestedStackauthNestedStackResource844A4080Outputsamplifyairecipegeneratorkmkluaymaiisandbox4692cc4209authamplifyAuthUserPoolA8745017Ref"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataGraphQLAPI145E83CCApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataGraphQLAPI145E83CCApiId"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataGraphQLAPI145E83CCGraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataGraphQLAPI145E83CCGraphQLUrl"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB52AC5DFEDestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB52AC5DFEDestinationBucketArn"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data/amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataGraphQLAPIDefaultApiKeyD93F67B2ApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyairecipegeneratorkmkluaymaiisandbox4692cc4209dataamplifyDataGraphQLAPIDefaultApiKeyD93F67B2ApiKey"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/awsAppsyncApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiKey"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-airecipegenerator-kmkluaymaii-sandbox-4692cc4209"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  },
+  "minimumCliVersion": "2.1020.2"
+}
